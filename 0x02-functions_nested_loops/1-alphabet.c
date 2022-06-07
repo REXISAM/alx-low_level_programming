@@ -1,14 +1,12 @@
-#include "holberton.h"
-
+#include <stdio.h>
+#include "main.h"
 /**
- * print_alphabet - prints alphabet
- *
- * Return: always 0;
+ * print_alphabet - entry point
  *
  */
 void print_alphabet(void)
 {
-	char i;
+	int i;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
